@@ -1,0 +1,14 @@
+  Are you tired of chosing Windows environment as your Visual Basic project GUI? This is the time to give your project a look!
+  This project has several ActiveX controls which gives you the ability of making skinable programs (programs that can change skin such as Winamp), easy as it possible! Simply add the ActiveX control to your project and write only one line of code and then walla... you have a skinable program. Beside that you can chose between several skins that I have made for this project.
+
+  Skinable Form project consists of these ActiveX controls:
+  - ctrl_SkinableForm.ocx   : Skinup your form
+  - ctrl_SkinableButton.ocx : A handsome and very useful button with great features
+  - ctrl_PulldownMenu.ocx   : Pulldown menu designed to fit with the new environment
+  - ctrl_ChannelBar.ocx     : A very good and useful tool to replace with Pulldown menu
+  - ctrl_ListObject.ocx     : A very handsome and useful tool
+  - ctrl_Toolbar.ocx        : New taskbar designed to fit with the new environment
+  - ctrl_Panel.ocx          : You can compar it with Fram control
+
+  Check this out and you'll find that this is all you were looking for in all your programming life! Now this is the time to Make your project a real masterpiece.
+								Arbie Sarkissian

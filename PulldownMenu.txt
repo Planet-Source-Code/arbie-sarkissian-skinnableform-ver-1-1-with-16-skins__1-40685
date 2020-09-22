@@ -1,0 +1,9 @@
+  ctrl_PulldownMenu.ocx is one of the SKinableForm project ActiveX control members that draws new look pulldown menu to fit with the new environment.
+  This part of SkinableForm project is very poor and need more work. Here you can just set the MenuBar backcolor (by Backcolor property) and Item's forecolor (by Forecolor property). By AddItem function you can add menu items:
+
+  Call Form1.ctrl_PullDownMenu1.AddItem("File")
+
+  Unfortunately the only work that this control's doing is only showing the menu items and draw a rectangle around the item that mouse is over. You can use popup menus to complete this control. In future versions SkinableForm project's pulldown menu will be more usesful.
+  It was a brief tutorial of using PulldownMenu.
+								Arbie Sarkissian
+  

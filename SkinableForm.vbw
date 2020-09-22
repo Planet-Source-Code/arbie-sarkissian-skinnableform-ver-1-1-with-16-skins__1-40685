@@ -1,0 +1,12 @@
+frm_Main = 0, 0, 697, 655, C, 0, 1, 697, 613, C
+ctrl_SkinableForm = 1, 1, 697, 655, C, 66, 86, 609, 539, C
+mdul_Main = 0, 0, 697, 655, C
+ctrl_SkinableButton = 0, 0, 697, 655, C, 66, 87, 608, 539, C
+ctrl_ChannelBar = 0, 0, 697, 655, C, 10, 34, 553, 486, C
+ctrl_PullDownMenu = 0, 0, 697, 655, C, 0, 0, 587, 510, C
+ctrl_ListObject = 0, 0, 697, 655, C, 0, 0, 543, 452, C
+ctrl_Panel = 0, 0, 697, 655, C, 44, 58, 587, 510, C
+frm_About = 67, 127, 610, 579, C, 70, 130, 613, 582, C
+ctrl_Toolbar = 0, 0, 697, 655, C, 2, 2, 545, 454, C
+frm_Menu = 84, 173, 627, 625, C, 110, 145, 652, 597, C
+ctrl_TransparetForm = 0, 0, 697, 655, C, 1, 0, 697, 655, C

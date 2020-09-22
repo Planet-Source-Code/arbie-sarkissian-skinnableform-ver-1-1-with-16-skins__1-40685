@@ -1,0 +1,3 @@
+  ctrl_Panel.ocx is one of the SKinableForm project ActiveX control members. This control is just a feature to give your project a better look. It also uses to fit other ActiveX controls with new environment.
+  It was a brief tutorial of using PulldownMenu.
+								Arbie Sarkissian
