@@ -1,0 +1,28 @@
+  ctrl_ChannelBar.ocx is one of the SKinableForm project ActiveX control members that gives you a pawerfull and very hadsome features.
+  Its use is very simple. Simply add a ChannelBar ActiveX control to your VB project. This control automaticly set the SkinPath property to:
+
+  [Current Dir]\Titanium 
+
+  Which is the default skin. Now you can use AddItem procedure to add a item to ListObject control:
+
+  Private Sub Form_Load()
+    Call Form1.ctrl_ListObject1.AddItem("Item #1")
+    Call Form1.ctrl_ListObject1.AddItem("Item #2")
+  End Sub
+
+  And AddSubItem procedure to add a subitem to a specify item:
+
+  Private Sub ctrl_ChannelBar1_Click(Index As Integer)
+      Select Case Index
+          Case 1:
+              Call Form1.ctrl_ChannelBar1.AddSubItem("SubItem #1")
+              Call Form1.ctrl_ChannelBar1.AddSubItem("SubItem #2")
+          Case 2:
+              Call Form1.ctrl_ChannelBar1.AddSubItem("SubItem #3")
+      End Select
+  End Sub
+
+  To change the skin, you should enter the skin folder path (which contains skin files) that you want to chose in the SkinPath property.
+  Forecolor Property sets the ListObject item's forecolor. MouseDownColor sets the item's forecolor after MouseDown event and MouseMoveColor set's item's forecolor when MouseMove event occurs.
+  It was a brief tutorial of using ListObject.
+								Arbie Sarkissian

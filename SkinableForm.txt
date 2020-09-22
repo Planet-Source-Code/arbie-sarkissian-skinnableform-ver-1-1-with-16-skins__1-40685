@@ -1,0 +1,17 @@
+  ctrl_SkinableForm.ocx is one of the SKinableForm project ActiveX control members that gives your VB project form the ability to change skins.
+  Its use is very simple. Simply add a SkinableForm ActiveX control to your VB project (at the form that you want to make skinable, evey form needs one control) and move it at the position (0,0) of the form. This control automaticly set the SkinPath property to:
+
+  [Current Dir]\Titanium 
+
+Which is the default skin. Then type below code in the Form_Load procedure:
+
+  Private Sub Form_Load()
+     Call Form1.ctrl_SkinableForm1.LoadSkin(Form1)
+  End Sub
+
+  To change the skin, you should enter the skin folder path (which contains skin files) that you want to chose in the SkinPath property.
+  Caption property will be your forms caption. Backcolor and Forecolor properties, set forms backcolor and the caption forecolor. That's because evey skin has its own color and you should set the caption and form color with environment.
+  CaptionTop property sets the form caption distance with the top edge. That's becausesometimes skin's caption places dosen't fit with eachother.
+  Here also, like classic VB forms, you can show or hide form's Maximize and Minimize buttons, with MaximizeBtn and MinimizeBtn properties.
+  It was a brief tutorial of using SkinableForm.
+								Arbie Sarkissian

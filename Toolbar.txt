@@ -1,0 +1,24 @@
+  ctrl_Toolbar.ocx is one of the SKinableForm project ActiveX control members that designed to fit with the new environment. You can also use Coolbar ActiveX control, but it has its problems in new environment.
+  Its use is very simple. Simply add a Toolbar ActiveX control to your VB project. This control automaticly set the SkinPath property to:
+
+  [Current Dir]\Titanium 
+
+Which is the default skin. Then type below code in the Form_Load procedure:
+
+  Private Sub Form_Load()
+    Call Form1.ctrl_Toolbar1.DrawToolbar
+  End Sub
+
+  You can use AddButton property to add a toolbar button:
+
+  Call Form1.ctrl_Toolbar1.AddButton(Form1.ImageList1.ListImages(1).Picture)
+  Call Form1.ctrl_Toolbar1.AddButton(Form1.ImageList1.ListImages(2).Picture)
+  
+  And use TooltipText to add a tip to your button:
+
+  Call Form1.ctrl_Toolbar1.AddTooltipText(0, "Button#1 Tip")
+
+  To change the skin, you should enter the skin folder path (which contains skin files) that you want to chose in the SkinPath property.
+  Backcolor property sets Toolbar backcolor. Toolbar button image must be added in a ListImage control and should be in size of 12x12 (transparent GIF image recommended).
+  It was a brief tutorial of using Toolbar.
+								Arbie Sarkissian

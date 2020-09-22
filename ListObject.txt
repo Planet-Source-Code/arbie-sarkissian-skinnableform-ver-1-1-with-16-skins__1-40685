@@ -1,0 +1,15 @@
+  ctrl_ListObject.ocx is one of the SKinableForm project ActiveX control members that gives you a pawerfull and handsome features.
+  Its use is very simple. Simply add a ListObject ActiveX control to your VB project. This control automaticly set the SkinPath property to:
+
+  [Current Dir]\Titanium 
+
+Which is the default skin. Now you can use AddItem property to add a item to ListObject control:
+
+  Private Sub Form_Load()
+     Call Form1.ctrl_ListObject1.AddItem("Itam #1")
+  End Sub
+
+  To change the skin, you should enter the skin folder path (which contains skin files) that you want to chose in the SkinPath property.
+  Forecolor property changes item's forecolor. MouseMoveColor sets item's forecolor while mouse is its over, and MouseDownColor sets item's forecolor while mouse button is pressed.
+  It was a brief tutorial of using SkinableButton.
+								Arbie Sarkissian

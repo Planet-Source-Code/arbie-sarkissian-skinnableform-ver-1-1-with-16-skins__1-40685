@@ -1,0 +1,4 @@
+  Thank you for choosing SkinableForm project. This project is just at the start of its road. I'll do my best to complete it and make it more and more powerful.
+  Right now just there're two skins, but I have designed 5 more and its increasing. New controls will be added and also new properties and events too.
+  Soon skinableForm project will be a real power.
+								Arbie Sarkissian

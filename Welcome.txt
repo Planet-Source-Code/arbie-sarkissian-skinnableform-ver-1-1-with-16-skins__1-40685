@@ -1,0 +1,5 @@
+  Welcome to SkinableForm project version 1.1 Copyright(c) 2002 by Arbie Sarkissian. Thank you for the time you'r spending to take a look at this project.
+  This project is not completed. There're error handlings, some controls have problems and some bugs,  there're so many thinks that should be added and more.
+  With your kind suggestions and votes, I'll have more energy to complite this project.
+			  Thank you
+								Arbie Sarkissian
